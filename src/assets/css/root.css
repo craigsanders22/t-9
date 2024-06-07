@@ -8,9 +8,9 @@
     --primary: #180b4b;
     --primaryLight: #76e2e1;
     --secondary: #001f3f;
-    --secondaryLight: #001f3f;
+    --secondaryLight: #1d3754;
     --headerColor: #1a1a1a;
-    --bodyTextColor: #dcd8f8;
+    --bodyTextColor: #06021c;
     --bodyTextColorWhite: #fafbfc;
     /* 13px - 16px */
     --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
@@ -604,7 +604,7 @@
     box-sizing: border-box;
     padding: 0 1.5rem;
     color: #fff;
-    background-color: var(--primary);
+    background-color: var(--secondary);
     border-radius: 0.25rem;
     display: inline-block;
     position: relative;
