@@ -34,7 +34,8 @@
     order: 2;
   }
   #sbsr-1279 .cs-title {
-    max-width: 20ch;
+    max-width: 40ch;
+    min-width: 20ch;
   }
   #sbsr-1279 .cs-text {
     margin-bottom: 1rem;
@@ -118,7 +119,7 @@
   #sbsr-1279 .cs-background {
     width: 100%;
     height: 50%;
-    background-color: #1a1a1a;
+    background-color: #464343;
     display: block;
     position: absolute;
     top: 0;
@@ -673,6 +674,7 @@
     padding: var(--sectionPadding);
     position: relative;
     z-index: 1;
+    background-color: #f7f7f7;
   }
   #contact-717 .cs-container {
     width: 100%;
@@ -719,7 +721,7 @@
     /* 24px - 48px top and bottom */
     /* 20px - 32px left and right */
     padding: clamp(1.25rem, 4.18vw, 3rem) clamp(1.25rem, 4.18vw, 2rem);
-    background-color: #f7f8f8;
+    background-color: #e1ebe6;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;

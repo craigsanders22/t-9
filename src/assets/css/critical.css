@@ -111,7 +111,7 @@
     color: #ede7e7;
     min-width: 12.5rem;
     padding: 0 1.5rem;
-    background-color: var(--primary);
+    background-color: var(--secondary);
     border-radius: 0.5rem;
     display: inline-block;
     position: relative;
