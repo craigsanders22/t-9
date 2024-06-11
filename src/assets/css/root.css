@@ -838,7 +838,7 @@
 /* Mobile */
 @media only screen and (min-width: 0rem) {
   #footer {
-    background: #1c1c1c;
+    background: #dddada;
     padding: 5.25rem 0 1.25rem;
     font-size: min(4vw, 1.2em);
   }
@@ -866,7 +866,7 @@
     width: 100%;
     font-size: 0.875rem;
     line-height: 1.92857143rem;
-    color: #fff;
+    color: var(--headerColor);
     text-align: center;
   }
   #footer .right-section {
@@ -892,12 +892,12 @@
     margin-bottom: 0.75rem;
     list-style: none;
     font-size: 1.125rem;
-    color: #fff;
+    color: var(--headerColor);
   }
   #footer .right-section .lists ul li a {
     text-decoration: none;
     line-height: 1.16666667em;
-    color: #fff;
+    color: var(--headerColor);
     transition: color 0.3s;
   }
   #footer .right-section .lists ul li a:hover {
@@ -910,7 +910,7 @@
     font-size: 1.125rem;
     line-height: 1.16666667em;
     font-weight: bold;
-    color: #fff;
+    color: var(--headerColor);
   }
   #footer .right-section .lists ul h2:before {
     position: absolute;
@@ -951,7 +951,7 @@
     width: 96%;
     font-size: 1rem;
     line-height: 2.25rem;
-    color: #fff;
+    color: var(--headerColor);
     text-align: center;
   }
   #footer .credit a {
